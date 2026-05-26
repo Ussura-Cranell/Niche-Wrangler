@@ -1,0 +1,27 @@
+# Рабочие папки
+data/
+cache/
+merged_data/
+filtered_subsets/
+ngram_analysis/
+reports/
+logs/
+archive/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Виртуальное окружение
+workspace-env/
+venv/
+.env
+
+# ОС
+.DS_Store
+Thumbs.db
+*.swp

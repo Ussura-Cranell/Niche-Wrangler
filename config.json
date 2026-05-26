@@ -1,0 +1,21 @@
+{
+  "paths": {
+    "data_folder": "data",
+    "archive_folder": "archive",
+    "cache_folder": "cache",
+    "merged_folder": "merged_data",
+    "filtered_folder": "filtered_subsets",
+    "reports_folder": "reports"
+  },
+  "processing": {
+    "skip_corrupted_files": true,
+    "log_level": "INFO",
+    "log_file": "logs/app.log"
+  },
+  "analysis": {
+    "price_bins": 15,
+    "top_n_sellers": 10,
+    "top_n_brands": 10,
+    "revenue_threshold_pct": 1.0
+  }
+}
