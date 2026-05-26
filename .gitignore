@@ -1,5 +1,6 @@
 # Рабочие папки
-data/
+data/*
+!data/.gitkeep
 cache/
 merged_data/
 filtered_subsets/
